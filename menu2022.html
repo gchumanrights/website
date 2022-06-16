@@ -23,6 +23,30 @@ In order not to make a tons of changes we decided to keep the structure and nami
     max-width: 320px;
     min-width: 200px;
 }
+
+.title_colonna_menu2,
+.colonna_menu2 ul li {
+    margin-bottom: 10px;
+    max-width: 250px;
+    min-width: 160px;
+}
+
+.colonna_menu2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+}
+
+.colonna_menu2 a {
+    color: #75716d;
+}
+
+.title_colonna_menu2 a {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #75716e;
+}
 </style>
 <!-- megamenu -->
 <ul class="digimeg-sub-nav">
@@ -110,8 +134,8 @@ In order not to make a tons of changes we decided to keep the structure and nami
                     </li>
                 </ul> -->
             </div>
-             <div class="colonna_menu">
-                <h5 class="title_colonna_menu"><a href="{{link_url::13}}">&nbsp;</a></h5>
+            <div class="colonna_menu">
+                <h5 class="title_colonna_menu"><a href="{{link_url::13}}">[nbsp]</a></h5>
                 <ul>
                     <li>
                         <a href="{{link_url::51}}">EHURECA</a>
@@ -170,108 +194,163 @@ In order not to make a tons of changes we decided to keep the structure and nami
     </li>
     <li id="Research-subnav">
         <div class="megamenu_container">
+            <div class="colonna_menu2" style="width: 120px;">
+                <h5 class="title_colonna_menu2"><a href="{{link_url::10}}" title="Regional Master's Programmes">Regional Masters</a></h5>
+                <ul>
+                    <li>
+                        <a href="{{link_url::113}}">GC Africa</a>
+                    </li>
+                    <li>
+                        <a href="{{link_url::68}}">GC Arab World</a>
+                    </li>
+                    <li>
+                        <a href="{{link_url::114}}">GC Asia-Pacific</a>
+                    </li>
+                    <li>
+                        <a href="{{link_url::112}}">GC Caucasus</a>
+                    </li>
+                    <li>
+                        <a href="{{link_url::110}}">GC Europe</a>
+                    </li>
+                    <li>
+                        <a href="{{link_url::115}}">GC Latin America<br>& Caribbean</a>
+                    </li>
+                    <li>
+                        <a href="{{link_url::111}}">GC South East Europe</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- <div class="colonna_menu">
+                <h5 class="title_colonna_menu"><a href="{{link_url::11}}">Career Development</a></h5>
+                <ul>
+                    <li>
+                        <a href="{{link_url::164}}">Global Internship Programme</a>
+                    </li>
+                    <li>
+                        <a href="{{link_url::238}}">Alumni associations’<br>activities</a>
+                    </li>
+                </ul>
+            </div> -->
+            <div class="colonna_menu2" style="width: 120px;">
+                <h5 class="title_colonna_menu2"><a href="{{link_url::12}}">E-learning</a></h5>
+                <ul>
+                    <li>
+                        <a href="{{link_url::162}}">Massive Open Online Courses (MOOCS)</a>
+                    </li>
+                    <li>
+                        <a href="{{link_url::161}}">Online Courses</a>
+                    </li>
+                    <li>
+                        <a href="https://gchumanrights.org/education/e-learning/moocs.html#past-courses">Blended Courses</a>
+                    </li>
+                    <li>
+                        <a href="https://gchumanrights.org/education/e-learning/moocs.html#past-courses">Past Courses</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="colonna_menu2">
+                <h5 class="title_colonna_menu2"><a href="{{link_url::13}}">Summer Schools</a></h5>
+                <ul>
+                    <li>
+                        <a href="{{link_url::51}}">Venice School<br>for Human Rights Defenders</a>
+                    </li>
+                    <li>
+                        <a href="{{link_url::52}}">Summer School<br>in Cinema Human Rights and Advocacy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="colonna_menu2">
+                <h5 class="title_colonna_menu2"><a href="{{link_url::13}}">Electoral Observation</a></h5>
+                <ul>
+                    <li>
+                        <a href="{{link_url::51}}">International Electoral Observers</a>
+                    </li>
+                    <li>
+                        <a href="{{link_url::52}}">Electoral Technical Assistance</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="colonna_menu2" style="width: 250px;">
+                <h5 class="title_colonna_menu2"><a href="{{link_url::13}}">Formazione CEDU</a></h5>
+                <ul>
+                    <li>
+                        <a href="{{link_url::51}}">La Tutela dei Diritti Umani presso la CEDU</a>
+                    </li>
+                    <li>
+                        <a href="{{link_url::52}}">Seminario sulla giurisprudenza della CEDU</a>
+                    </li>
+                    <li>
+                        <a href="{{link_url::52}}">Webinar: L’esaurimento delle vie di ricorso interne</a>
+                    </li>
+                    <li>
+                        <a href="{{link_url::52}}">Webinar: L'esaurimento di Nicola (nome troppo lungo)</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- <ul>
+                    <li>
+                        <a href="{{link_url::48}}">Summer Schools</a>
+                    </li>
+                    <li>
+                        <a href="{{link_url::49}}">Training Seminars</a>
+                    </li>
+                    <li>
+                        <a href="{{link_url::478}}">Human Rights Centre<br>at UNTL</a>
+                    </li>
+                </ul> -->
             <div class="colonna_menu">
-                <h5 class="title_colonna_menu"><a href="{{link_url::15}}">Projects</a></h5>
+                <h5 class="title_colonna_menu"><a href="{{link_url::13}}">Capacity Development</a></h5>
                 <ul>
                     <li>
-                        <a href="{{link_url::187}}">Research Programme</a>
+                        <a href="{{link_url::478}}">Human Rights Centre<br>at UNTL</a>
                     </li>
                     <li>
-                        <a href="{{link_url::188}}">Policy Observatory Project</a>
+                        <a href="{{link_url::51}}">EHURECA</a>
                     </li>
                     <li>
-                        <a href="{{link_url::696}}">Children's Rights</a>
-                    </li>
-                    <li>
-                        <a href="{{link_url::647}}">UN Global Study</a>
-                    </li>
-                    <li>
-                        <a href="{{link_url::333}}">Visiting Researchers</a>
-                    </li>
-                    <li>
-                        <a href="{{link_url::340}}">e-NACT</a>
-                    </li>
-                    <li>
-                        <a href="{{link_url::191}}">ACTIONES</a>
-                    </li>
-                    <li>
-                        <a href="{{link_url::190}}">FRAME</a>
+                        <a href="{{link_url::52}}">World Moot Court</a>
                     </li>
                 </ul>
+                <!-- <ul>
+                    <li>
+                        <a href="{{link_url::48}}">Summer Schools</a>
+                    </li>
+                    <li>
+                        <a href="{{link_url::49}}">Training Seminars</a>
+                    </li>
+                    <li>
+                        <a href="{{link_url::478}}">Human Rights Centre<br>at UNTL</a>
+                    </li>
+                </ul> -->
             </div>
-            <div class="colonna_menu">
-                <h5 class="title_colonna_menu"><a href="{{link_url::16}}">Publications</a></h5>
+            <!-- <div class="colonna_menu">
+                <h5 class="title_colonna_menu"><a href="{{link_url::14}}">Networking <br> and Outreach</a></h5>
                 <ul>
                     <li>
-                        <a href="{{link_url::16}}">Global Campus Human <br> Rights Journal</a>
+                        <a href="{{link_url::229}}">Global Classroom</a>
                     </li>
                     <li>
-                        <a href="{{link_url::16}}">Master's Theses</a>
+                        <a href="{{link_url::230}}">Nelson Mandela World <br> Moot Court</a>
                     </li>
                     <li>
-                        <a href="{{link_url::16}}">FRAME Reports</a>
+                        <a href="{{link_url::231}}">Exchange of Professors</a>
                     </li>
                     <li>
-                        <a href="{{link_url::16}}">European Human Rights <br> Yearbook</a>
+                        <a href="{{link_url::783}}">Afghan Scholarship Programme</a>
                     </li>
                     <li>
-                        <a href="{{link_url::16}}">Repository</a>
+                        <a href="{{link_url::364}}">Visual Contest</a>
                     </li>
                     <li>
-                        <a href="{{link_url::160}}">Recent Publications</a>
-                    </li>
-                    <li>
-                        <a href="{{link_url::16}}">EMA 20 years</a>
+                        <a href="{{link_url::772}}">To The Righthouse <br>Podcast Series</a>
                     </li>
                 </ul>
-            </div>
-            <div class="colonna_menu">
-                <h5 class="title_colonna_menu"><a href="{{link_url::17}}">Libraries</a></h5>
-                <ul>
-                    <li>
-                        <a href="{{link_url::271}}">Repository</a>
-                    </li>
-                    <li>
-                        <a href="{{link_url::272}}">Headquarters</a>
-                    </li>
-                    <!--<li>
-                        <a href="{{link_url::273}}">Other Libraries</a> 
-                    </li>-->
-                </ul>
-            </div>
-            <div class="colonna_menu colonna_menu_larga">
-                <h5 class="title_colonna_menu"><a href="{{link_url::18}}">Networking and Outreach</a></h5>
-                <ul>
-                    <li>
-                        <a href="{{link_url::168}}">Exchange of Professors</a>
-                    </li>
-                    <li>
-                        <a href="{{link_url::169}}">Workshop Integrated Teaching</a>
-                    </li>
-                    <li>
-                        <a href="{{link_url::170}}">Research Skills Hub</a>
-                    </li>
-                    <li>
-                        <a href="{{link_url::171}}">Global Classroom</a>
-                    </li>
-                    <li>
-                        <a href="{{link_url::172}}">International Conference on Human Rights and Democratisation</a>
-                    </li>
-                    <li>
-                        <a href="{{link_url::173}}">Nelson Mandela World Moot Court</a>
-                    </li>
-                    <!-- <li>
-                            <a href="{{link_url::50}}">Venice Academy of Human Rights</a>
-                    </li> -->
-                    <!-- <li>
-                            <a href="#">Global Campus Visiting Researchers</a>      
-                    </li> -->
-                </ul>
-            </div>
-            <div class="colonna_img">
-                <p class="titolo_img_menu">Sustainability <br> campaign</p>
-                <a href="{{link_url::243}}"><button class="button button--aylen">Discover</button></a>
-            </div>
+            </div> -->
+        </div>
+        <div class="megamenu_container border_top_submenu">
+            <ul class="submenu_blu_word">
+                <li class="icon icon-arrow-right"><a href="{{link_url::3}}">TEMPORARY EDUCATION MENU</a></li>
+            </ul>
         </div>
     </li>
     <li id="News-subnav">
@@ -711,4 +790,4 @@ In order not to make a tons of changes we decided to keep the structure and nami
         </div>
     </li>
 </ul>
-<!-- megamenu end
+<!-- megamenu end -->
